@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script> -->
+
+</head>
+<body>
+    <header id="header" >
+        <h1 id="titre">KANTA</h1>
+        <div id="sousheader">
+            <a class="popup" id="login"><img src="notif.png" alt="icone notif" srcset="" id="img1" onclick="togglenotif()"></a>
+            <a id="notif"><img src="profil.png" alt="icone profil" srcset="" id="img2" onclick="toggleprofil()"></a>
+
+        </div>
+
+    </header>
+    <div id="notifdepliant">
+        <p>1 event</p>
+ 
+    </div>
+    <div id="profildepliant">
+        <p>Amis</p>
+        <p>Paramètres</p>
+        <p>Deconnexion</p>
+ 
+    </div>
+
+    <div id="map"></div>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP9gMjkh1GFnLJBjyhV7WDFQfA7X9H5TU&callback=initMap">
+</script>
+</body>
+</html>
