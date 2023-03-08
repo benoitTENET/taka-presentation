@@ -73,19 +73,19 @@ function initMap() {
 }
 
 function togglenotif() {
-    var notifdepliant = document.getElementById("notifdepliant"); // Récupère l'élément du menu
+    var notifdepliant = document.getElementById("notifdepliant"); 
     if (notifdepliant.style.display === "block") {
-        notifdepliant.style.display = "none"; // Masque le menu s'il est déjà visible
+        notifdepliant.style.display = "none"; 
     } else {
-        notifdepliant.style.display = "block"; // Affiche le menu s'il est masqué
+        notifdepliant.style.display = "block"; 
     }
 }
 function toggleprofil() {
-    var profildepliant = document.getElementById("profildepliant"); // Récupère l'élément du menu
+    var profildepliant = document.getElementById("profildepliant"); 
     if (profildepliant.style.display === "block") {
-        profildepliant.style.display = "none"; // Masque le menu s'il est déjà visible
+        profildepliant.style.display = "none"; 
     } else {
-        profildepliant.style.display = "block"; // Affiche le menu s'il est masqué
+        profildepliant.style.display = "block"; 
     }
 }
 
